@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Arrow_Short" or defName="Arrow_Recurve" or defName="Arrow_Great"]</xpath>
+    <value>
+      <thingClass>GNATFramework.Bullet_Spawn</thingClass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Arrow_Short"]/projectile</xpath>
+    <value>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <preExplosionSpawnThingCount>1</preExplosionSpawnThingCount>
+      <preExplosionSpawnThingDef>AmmoPrimitive</preExplosionSpawnThingDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Arrow_Recurve"]/projectile</xpath>
+    <value>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <preExplosionSpawnThingCount>1</preExplosionSpawnThingCount>
+      <preExplosionSpawnThingDef>AmmoPrimitive</preExplosionSpawnThingDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Arrow_Great"]/projectile</xpath>
+    <value>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <preExplosionSpawnThingCount>1</preExplosionSpawnThingCount>
+      <preExplosionSpawnThingDef>AmmoPrimitive</preExplosionSpawnThingDef>
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,10 @@
+<loadFolders>
+  <v1.4>
+    <li>Common</li>
+    <li IfModActive="VanillaExpanded.VWE">Common/Mods/Vanilla_Expanded/VWE</li>
+  </v1.4>
+  <v1.5>
+    <li>Common</li>
+    <li IfModActive="VanillaExpanded.VWE">Common/Mods/Vanilla_Expanded/VWE</li>
+  </v1.5>
+</loadFolders>
